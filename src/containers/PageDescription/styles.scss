@@ -1,0 +1,25 @@
+@import '../../constants/constants.scss';
+
+.page-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: $grey-text;
+}
+
+.page-description__heading {
+  margin-bottom: 0;
+
+  font: 400 70px/70px Roboto, sans-serif;
+  color: $dark-text;
+}
+
+.page-description__text {
+  margin-top: 32px;
+  width: 70%;
+
+  font: 100 22px/38px Roboto, sans-serif;
+  text-align: center;
+}
